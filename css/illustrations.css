@@ -1,0 +1,126 @@
+body {
+    background-color: #faf2f2;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    color: #7d5a5a;
+    font-size: 3.5em;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    color: #7d5a5a;
+    font-size: 2em;
+}
+
+h3 {
+    color: #7d5a5a;
+    font-family: 'Raleway';
+    overflow: hidden;
+    position: relative;
+    bottom: 50px;
+    opacity: 30%;
+}
+
+h3:hover {
+    opacity: 100%;
+}
+
+
+/* Navbar Style */
+
+.nav-item {
+    font-family: "Raleway";
+    font-size: 1.4em;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: #7d5a5a;
+}
+
+.nav-item:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.pos-f-t {
+    text-align: center;
+}
+
+.bg {
+    background-color: #faf2f2;
+}
+
+.navbar-default {
+    background-color: #faf2f2 !important;
+}
+
+.fa-bars {
+    color: #7d5a5a;
+}
+
+
+/* images */
+
+.row {
+    margin: auto;
+}
+
+.column {
+    text-align: center;
+    margin-top: 100px;
+    margin: 0;
+}
+
+.illustration {
+    width: 30%;
+    margin: 12px;
+    border-radius: 30px;
+    border: 2px solid #7d5a5a;
+    box-shadow: 5px 5px #7d5a5a;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.illustration:hover {
+    opacity: 0.30;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 200px;
+    padding: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: "Raleway";
+    font-size: 1.5em;
+    color: #7d5a5a;
+    text-align: center;
+}
+
+.social-icon {
+    color: #7d5a5a;
+    font-size: 1.5em;
+}
+
+.social-icon:hover {
+    color: white;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: "Raleway";
+}
+
+.copyright {
+    color: #7d5a5a;
+}

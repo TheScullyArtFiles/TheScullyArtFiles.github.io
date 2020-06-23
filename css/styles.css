@@ -1,0 +1,164 @@
+body {
+    background-color: #faf2f2;
+    text-align: center;
+}
+
+p {
+    color: #7d5a5a;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 2.0em;
+    margin-top: 120px;
+}
+
+h3 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 3em;
+}
+
+#shortbio {
+    margin-top: 30px;
+}
+
+.smbio {
+    margin-top: 200px;
+    font-family: 'Raleway';
+    font-size: 2.3em;
+    padding: 10px;
+    color: #7d5a5a;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(.01);
+    }
+    60% {
+        transform: scale(1.2);
+        transform: scale(1);
+    }
+}
+
+.logo {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-name: bounceIn;
+}
+
+.logo:hover {
+    animation: bounceIn 2s;
+}
+
+.column {
+    min-height: 975px;
+    max-height: 975px;
+    display: flex;
+    justify-content: space-between;
+    padding: 85px;
+}
+
+.panel {
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+    margin-top: 1px;
+    border-radius: 30px;
+    margin-bottom: 8%;
+    transition: width 1.5s, height 1.5s, margin-bottom 1.5s;
+}
+
+.bio-panel-box {
+    margin-bottom: 150px;
+}
+
+.panel:hover {
+    width: 35%;
+    height: 35%;
+    margin-bottom: -35%;
+    /* -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: 0.8s ease-out; */
+}
+
+
+/* navbar */
+
+.nav-item {
+    font-family: "Raleway";
+    font-size: 1.4em;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: #7d5a5a;
+}
+
+.nav-item:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.pos-f-t {
+    text-align: center;
+}
+
+.bg {
+    background-color: #faf2f2;
+}
+
+.navbar-default {
+    background-color: #faf2f2 !important;
+}
+
+.fa-bars {
+    color: #7d5a5a;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 300px;
+    padding: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: "Raleway";
+    font-size: 1em;
+    color: #7d5a5a;
+}
+
+.social-icon {
+    color: #7d5a5a;
+    width: 30px;
+    font-size: 1.5em;
+}
+
+.social-icon:hover {
+    color: white;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: "Raleway";
+}
+
+.copyright {
+    color: #7d5a5a;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
