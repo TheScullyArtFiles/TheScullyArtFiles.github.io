@@ -1,6 +1,13 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     background-color: #faf2f2;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
@@ -125,14 +132,19 @@ h3 {
     color: #7d5a5a;
 }
 
+.content {
+    flex: 1 0 auto;
+}
+
 
 /* Footer */
 
 .footer {
-    margin-top: 300px;
+    /* margin-top: 300px;
     padding: 30px;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0; */
+    flex-shrink: 0;
     font-family: "Raleway";
     font-size: 1em;
     color: #7d5a5a;
@@ -162,5 +174,3 @@ h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
-
-@media (max-width: 1028px)
