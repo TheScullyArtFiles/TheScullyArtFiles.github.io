@@ -23,6 +23,10 @@ p {
     font-size: 2.5em;
 }
 
+.email {
+    font-weight: bold;
+}
+
 
 /* navbar */
 
@@ -49,14 +53,6 @@ p {
     ;
 }
 
-.navbar-default {
-    background-color: #faf2f2 !important;
-}
-
-.fa-bars {
-    color: #d5a5a1;
-}
-
 
 /* Footer */
 
@@ -65,10 +61,6 @@ p {
 }
 
 .footer {
-    /* margin-top: 140px;
-    padding: 30px;
-    margin-left: 0;
-    margin-right: 0; */
     flex-shrink: 0;
     font-family: "Raleway";
     font-size: 1em;
@@ -79,8 +71,9 @@ p {
 .social-icon {
     color: #7d5a5a;
     width: 30px;
-    font-size: 1.5em;
+    font-size: 6em;
     text-align: center;
+    padding: 10px;
 }
 
 .social-icon:hover {

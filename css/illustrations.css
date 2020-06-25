@@ -60,14 +60,6 @@ h3:hover {
     background-color: #faf2f2;
 }
 
-.navbar-default {
-    background-color: #faf2f2 !important;
-}
-
-.fa-bars {
-    color: #7d5a5a;
-}
-
 .content {
     flex: 1 0 auto;
 }
