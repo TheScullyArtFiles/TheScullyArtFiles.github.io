@@ -1,5 +1,11 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     background-color: #faf2f2;
+    text-align: center;
 }
 
 h1 {
@@ -62,6 +68,10 @@ h3:hover {
     color: #7d5a5a;
 }
 
+.content {
+    flex: 1 0 auto;
+}
+
 
 /* images */
 
@@ -93,10 +103,11 @@ h3:hover {
 /* Footer */
 
 .footer {
-    margin-top: 200px;
+    /* margin-top: 200px;
     padding: 30px;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0; */
+    flex-shrink: 0;
     font-family: "Raleway";
     font-size: 1.5em;
     color: #7d5a5a;

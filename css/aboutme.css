@@ -1,5 +1,12 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     background-color: #faf2f2;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
@@ -80,14 +87,19 @@ h2 {
     font-family: "Raleway";
 }
 
+.content {
+    flex: 1 0 auto;
+}
+
 
 /* Footer */
 
 .footer {
-    margin-top: 200px;
+    /* margin-top: 200px;
     padding: 30px;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0; */
+    flex-shrink: 0;
     font-family: "Raleway";
     font-size: 1em;
     color: #7d5a5a;

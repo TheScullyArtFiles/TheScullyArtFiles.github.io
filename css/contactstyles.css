@@ -1,5 +1,11 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     background-color: #faf2f2;
+    text-align: center;
 }
 
 h1 {
@@ -54,11 +60,16 @@ p {
 
 /* Footer */
 
+.content {
+    flex: 1 0 auto;
+}
+
 .footer {
-    margin-top: 140px;
+    /* margin-top: 140px;
     padding: 30px;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0; */
+    flex-shrink: 0;
     font-family: "Raleway";
     font-size: 1em;
     color: #7d5a5a;
